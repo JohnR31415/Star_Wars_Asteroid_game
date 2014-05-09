@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Obstacles\Asteroid\Asteroid.cpp" />
+    <ClCompile Include="RebelShips\XWing\XWing.cpp" />
+    <ClCompile Include="Weapons\RebelLazer.cpp" />
+    <ClCompile Include="Weapons\RebelTorpedo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Base\GameEntity.h" />
+    <ClInclude Include="Base\Obstacle.h" />
+    <ClInclude Include="Base\Projectile.h" />
+    <ClInclude Include="Base\Ship.h" />
+    <ClInclude Include="Effects\AsteroidExplosion.h" />
+    <ClInclude Include="Effects\RebelLazerBlast.h" />
+    <ClInclude Include="Obstacles\Asteroid\Asteroid.h" />
+    <ClInclude Include="RebelShips\XWing\XWing.h" />
+    <ClInclude Include="Utility\Healthbar.h" />
+    <ClInclude Include="Weapons\RebelLazer.h" />
+    <ClInclude Include="Global.h" />
+    <ClInclude Include="Startup.h" />
+    <ClInclude Include="Effects\XWingExplosion.h" />
+    <ClInclude Include="Weapons\RebelTorpedo.h" />
+    <ClInclude Include="Effects\RebelTorpedoBlast.h" />
+  </ItemGroup>
+</Project>
